@@ -1,11 +1,11 @@
-#I created this task with all the installation and requirements mentioned in the file shared.
+# I created this task with all the installation and requirements mentioned in the file shared.
 
 
 
 ## DevOps Interview Task – Minikube + Terraform
 
 ## Overview
-This project demonstrates deploying a Node.js microservice on Kubernetes using Terraform, with full observability (monitoring, logging, autoscaling) and CI orchestration via GitHub Actions.
+This project shows deploying a Node.js micro-service on Kubernetes using Terraform, with full observability (monitoring, logging, autoscaling) and CI orchestration via GitHub Actions.
 
 The setup is implemented and tested on a Minikube cluster.
 

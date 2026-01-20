@@ -47,9 +47,9 @@ resource "kubernetes_deployment" "app" {
 
       spec {
         container {
-          name  = var.app_name
-          image = "node-health-app:1.0"
-	  image_pull_policy = "IfNotPresent"
+          name              = var.app_name
+          image             = "node-health-app:1.0"
+          image_pull_policy = "IfNotPresent"
 
           port {
             container_port = 8080

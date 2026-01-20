@@ -1,0 +1,16 @@
+backend:
+  type: es
+
+env:
+  - name: FLUENT_ELASTICSEARCH_HOST
+    value: elasticsearch-master
+  - name: FLUENT_ELASTICSEARCH_PORT
+    value: "9200"
+
+resources:
+  requests:
+    cpu: "50m"
+    memory: "64Mi"
+  limits:
+    cpu: "200m"
+    memory: "128Mi"

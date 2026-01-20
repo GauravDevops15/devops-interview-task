@@ -1,4 +1,4 @@
-\# How to Run This Project Locally (Minikube)
+# How to Run This Project Locally (Minikube)
 
 
 
@@ -8,9 +8,7 @@ This document explains how to run the DevOps Interview Task locally on a Minikub
 
 ---
 
-
-
-\## Prerequisites
+## Prerequisites
 
 
 
@@ -18,15 +16,15 @@ Ensure the following tools are installed on your system:
 
 
 
-\- Docker Desktop (running)
+- Docker Desktop (running)
 
-\- Minikube
+- Minikube
 
-\- kubectl
+- kubectl
 
-\- Terraform (>= 1.5)
+- Terraform (>= 1.5)
 
-\- Git
+- Git
 
 
 
@@ -36,41 +34,41 @@ Verify installations:
 
 ```bash
 
-docker --version
+- docker --version
 
-minikube version
+- minikube version
 
-kubectl version --client
+- kubectl version --client
 
-terraform version
-
-
+- terraform version
 
 
 
-\##Local steps
+
+
+##Local steps
 
 &nbsp;
 
--Start Minikube
+- Start Minikube
 
--Clone Repo
+- Clone Repo
 
--git clone https://github.com/GauravDevops15/devops-interview-task.git
+- git clone https://github.com/GauravDevops15/devops-interview-task.git
 
--cd devops-interview-task
+- cd devops-interview-task
 
--Deploy Infra using Terraform
+- Deploy Infra using Terraform
 
--Verify application
+- Verify application
 
--Access Monitoring
+- Access Monitoring
 
--Access Centralized logging
+- Access Centralized logging
 
--Verify Autoscaling(HPA)
+- Verify Autoscaling(HPA)
 
--Cleanup (Destroy all resources)
+- Cleanup (Destroy all resources)
 
 
 

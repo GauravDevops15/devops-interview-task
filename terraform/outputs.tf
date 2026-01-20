@@ -1,8 +1,4 @@
 output "app_service_name" {
-  value = "${var.app_name}-service"
-}
-
-output "app_service_name" {
   value = kubernetes_service.app_service.metadata[0].name
 }
 
